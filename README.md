@@ -48,6 +48,10 @@ Returns total prediction count.
 - Dashboard Development
 - Monitoring and Logging
 - End-to-End ML Workflow
+## Dashboard Preview
+
+![<img width="1900" height="1091" alt="Screenshot 2026-06-09 121516" src="https://github.com/user-attachments/assets/9ba2c333-bb25-420c-88f3-d0dddae4ca6c" />
+](feature.png)
 
 ## Author
 
