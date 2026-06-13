@@ -50,7 +50,7 @@ Returns total prediction count.
 - End-to-End ML Workflow
 ## Dashboard Preview
 
-![<img width="1900" height="1091" alt="Screenshot 2026-06-09 121516" src="https://github.com/user-attachments/assets/9ba2c333-bb25-420c-88f3-d0dddae4ca6c" />
+![<img width="1900" height="1091" alt="Screenshot 2026-06-09 121516" src="https://github.com/user-attachments/assets/208f3619-b754-488e-9c63-a445a8e174ce" />
 ](feature.png)
 
 ## Author
