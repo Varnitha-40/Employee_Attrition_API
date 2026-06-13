@@ -1,69 +1,54 @@
-Employee Attrition Prediction System
+# Employee Attrition Prediction System
 
-Project Overview:
-This project predicts whether an employee is likely to remain active in the organization or leave the company. The goal was not only to build a machine learning model but also to deploy it as a complete application with an API, monitoring, logging, and a user-friendly dashboard.
+## Project Overview
 
-What I Did:
-Cleaned and prepared the employee attrition dataset
-Encoded categorical features using Label Encoding
-Trained and evaluated multiple machine learning models
-Selected a Decision Tree Classifier for prediction
-Saved the trained model using Pickle
-Built a FastAPI backend to expose the model as an API
-Created a Gradio dashboard for user interaction
-Added audit logging to store prediction history
-Added monitoring to track API usage
-Implemented input validation (guardrails) to handle invalid data
-Displayed prediction probabilities and feature importance
-Technologies Used
-Python
-Pandas
-Scikit-learn
-FastAPI
-Gradio
-Pickle
-API Endpoints
-GET /
+This project predicts whether an employee is likely to remain active in the organization or leave the company.
 
-Returns a simple message indicating that the API is running.
+The goal was not only to build a machine learning model but also to deploy it as a complete application with an API, monitoring, logging, and a user-friendly dashboard.
 
-POST /predict
+## What I Did
 
-Accepts employee details and returns:
+- Cleaned and prepared the dataset
+- Encoded categorical variables using Label Encoding
+- Trained and evaluated machine learning models
+- Selected a Decision Tree Classifier
+- Saved the model using Pickle
+- Built a FastAPI backend
+- Created a Gradio dashboard
+- Added audit logging
+- Added monitoring endpoints
+- Added input validation
+- Displayed prediction probabilities
+- Visualized feature importance
 
-Prediction (ACTIVE / TERMINATED)
-Prediction probability
-GET /metrics
+## Technologies Used
 
-Returns the total number of predictions made through the API.
+- Python
+- Pandas
+- Scikit-learn
+- FastAPI
+- Gradio
+- Pickle
 
-Dashboard Features
+## API Endpoints
 
-The Gradio dashboard allows users to:
+### GET /
+Checks whether the API is running.
 
-Enter employee information
-Submit prediction requests
-View prediction results
-View prediction confidence
-Visualize feature importance
-Project Architecture
+### POST /predict
+Returns employee attrition prediction and probability.
 
-Gradio Dashboard → FastAPI API → Decision Tree Model → Prediction
+### GET /metrics
+Returns total prediction count.
 
-Additional components:
+## Learning Outcomes
 
-Audit Logging (CSV)
-Monitoring Endpoint
-Input Validation
-Learning Outcomes
+- Machine Learning Model Deployment
+- REST API Development
+- Dashboard Development
+- Monitoring and Logging
+- End-to-End ML Workflow
 
-Through this project, I learned:
-
-Machine Learning model deployment
-API development with FastAPI
-Building interactive dashboards with Gradio
-Monitoring and logging in ML applications
-End-to-end ML workflow from training to deployment
-Author
+## Author
 
 Sreevarnitha
